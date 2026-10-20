@@ -1,0 +1,10 @@
+État : actif
+Journalisation : on (low)
+Par défaut : deny (incoming), allow (outgoing), deny (routed)
+Nouveaux profils : skip
+
+Vers                       Action      De
+----                       ------      --
+22/tcp                     ALLOW IN    Anywhere
+Anywhere                   DENY IN     192.168.1.37
+22/tcp (v6)                ALLOW IN    Anywhere (v6)
